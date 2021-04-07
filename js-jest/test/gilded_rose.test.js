@@ -416,7 +416,7 @@ describe("Gilded Rose", function() {
   //PROBLEM => LOG DANS LES DEUX FICHIERS
 
   //OTHER LOG
-  // it("DAY TEST 01 [10 000 DAYS]", function() {
+  // it("DAY TEST 02 [10 000 DAYS]", function() {
 
   //   //CREATING ITEMS
   //   const items = [
@@ -436,7 +436,7 @@ describe("Gilded Rose", function() {
   //   ];
   //   //LOG TITLE
   //   loggerBigDays.trace("")
-  //   loggerBigDays.trace("***************** DAY TEST 01 *****************")
+  //   loggerBigDays.trace("***************** DAY TEST 02 *****************")
   //   loggerBigDays.trace("[TEST 10 000 JOURS]")
   //   loggerBigDays.trace("")
     
