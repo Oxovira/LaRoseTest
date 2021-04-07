@@ -1,0 +1,708 @@
+TRACE [Test_Item] 
+TRACE [Test_Item] ***************** TEST 01 *****************
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 20 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 19 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ***************** TEST 02 *****************
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ***************** TEST 03 *****************
+TRACE [Test_Item] [TEST ALL ZERO]
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 0, 0 )
+TRACE [Test_Item] ( Aged Brie, 0, 0 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 0, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 0 )
+TRACE [Test_Item] ( Conjured Mana Cake, 0, 0 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] ( +5 Dexterity Vest, -1, 0 )
+TRACE [Test_Item] ( Aged Brie, -1, 2 )
+TRACE [Test_Item] ( Elixir of the Mongoose, -1, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Conjured Mana Cake, -1, 0 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ***************** TEST 05 *****************
+TRACE [Test_Item] [TEST NEGATIF SELL_IN]
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] ( +5 Dexterity Vest, -10, 0 )
+TRACE [Test_Item] ( Aged Brie, -10, 0 )
+TRACE [Test_Item] ( Elixir of the Mongoose, -10, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, -10, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, -10, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -10, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -10, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -10, 0 )
+TRACE [Test_Item] ( Conjured Mana Cake, -10, 0 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] ( +5 Dexterity Vest, -11, 0 )
+TRACE [Test_Item] ( Aged Brie, -11, 2 )
+TRACE [Test_Item] ( Elixir of the Mongoose, -11, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, -10, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, -10, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -11, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -11, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -11, 0 )
+TRACE [Test_Item] ( Conjured Mana Cake, -11, 0 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ***************** TEST 06 *****************
+TRACE [Test_Item] [TEST NEGATIF QUALITY]
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 0, -10 )
+TRACE [Test_Item] ( Aged Brie, 0, -10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, -10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, -10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, -10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, -10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, -10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, -10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 0, -10 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] ( +5 Dexterity Vest, -1, -10 )
+TRACE [Test_Item] ( Aged Brie, -1, -8 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, -10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, -10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 0, -10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Conjured Mana Cake, -1, -10 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ***************** DAY TEST 01 *****************
+TRACE [Test_Item] [TEST 10 JOURS]
+TRACE [Test_Item] 
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 0] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 0] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 0] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 1] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 1] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 1] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 8, 8 )
+TRACE [Test_Item] ( Aged Brie, 8, 12 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 8, 8 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 8, 14 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 8, 14 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 8, 14 )
+TRACE [Test_Item] ( Conjured Mana Cake, 8, 8 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 2] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 2] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 8, 8 )
+TRACE [Test_Item] ( Aged Brie, 8, 12 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 8, 8 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 8, 14 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 8, 14 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 8, 14 )
+TRACE [Test_Item] ( Conjured Mana Cake, 8, 8 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 2] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 7, 7 )
+TRACE [Test_Item] ( Aged Brie, 7, 13 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 7, 7 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 7, 16 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 7, 16 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 7, 16 )
+TRACE [Test_Item] ( Conjured Mana Cake, 7, 7 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 3] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 3] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 7, 7 )
+TRACE [Test_Item] ( Aged Brie, 7, 13 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 7, 7 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 7, 16 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 7, 16 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 7, 16 )
+TRACE [Test_Item] ( Conjured Mana Cake, 7, 7 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 3] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 6, 6 )
+TRACE [Test_Item] ( Aged Brie, 6, 14 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 6, 6 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 6, 18 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 6, 18 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 6, 18 )
+TRACE [Test_Item] ( Conjured Mana Cake, 6, 6 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 4] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 4] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 6, 6 )
+TRACE [Test_Item] ( Aged Brie, 6, 14 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 6, 6 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 6, 18 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 6, 18 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 6, 18 )
+TRACE [Test_Item] ( Conjured Mana Cake, 6, 6 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 4] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 5, 5 )
+TRACE [Test_Item] ( Aged Brie, 5, 15 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 5, 5 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 5, 20 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 5, 20 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 5, 20 )
+TRACE [Test_Item] ( Conjured Mana Cake, 5, 5 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 5] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 5] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 5, 5 )
+TRACE [Test_Item] ( Aged Brie, 5, 15 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 5, 5 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 5, 20 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 5, 20 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 5, 20 )
+TRACE [Test_Item] ( Conjured Mana Cake, 5, 5 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 5] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 4, 4 )
+TRACE [Test_Item] ( Aged Brie, 4, 16 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 4, 4 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 4, 23 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 4, 23 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 4, 23 )
+TRACE [Test_Item] ( Conjured Mana Cake, 4, 4 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 6] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 6] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 4, 4 )
+TRACE [Test_Item] ( Aged Brie, 4, 16 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 4, 4 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 4, 23 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 4, 23 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 4, 23 )
+TRACE [Test_Item] ( Conjured Mana Cake, 4, 4 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 6] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 3, 3 )
+TRACE [Test_Item] ( Aged Brie, 3, 17 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 3, 3 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 3, 26 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 3, 26 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 3, 26 )
+TRACE [Test_Item] ( Conjured Mana Cake, 3, 3 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 7] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 7] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 3, 3 )
+TRACE [Test_Item] ( Aged Brie, 3, 17 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 3, 3 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 3, 26 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 3, 26 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 3, 26 )
+TRACE [Test_Item] ( Conjured Mana Cake, 3, 3 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 7] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 2, 2 )
+TRACE [Test_Item] ( Aged Brie, 2, 18 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 2, 2 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 2, 29 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 2, 29 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 2, 29 )
+TRACE [Test_Item] ( Conjured Mana Cake, 2, 2 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 8] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 8] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 2, 2 )
+TRACE [Test_Item] ( Aged Brie, 2, 18 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 2, 2 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 2, 29 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 2, 29 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 2, 29 )
+TRACE [Test_Item] ( Conjured Mana Cake, 2, 2 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 8] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 1, 1 )
+TRACE [Test_Item] ( Aged Brie, 1, 19 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 1, 1 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 1, 32 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 1, 32 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 1, 32 )
+TRACE [Test_Item] ( Conjured Mana Cake, 1, 1 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 9] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 9] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 1, 1 )
+TRACE [Test_Item] ( Aged Brie, 1, 19 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 1, 1 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 1, 32 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 1, 32 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 1, 32 )
+TRACE [Test_Item] ( Conjured Mana Cake, 1, 1 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 9] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 0, 0 )
+TRACE [Test_Item] ( Aged Brie, 0, 20 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 0, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 35 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 35 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 35 )
+TRACE [Test_Item] ( Conjured Mana Cake, 0, 0 )
+TRACE [Test_Item] 
+TRACE [Test_Item] == [DAY 10] ==
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] == [DAY 10] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, 0, 0 )
+TRACE [Test_Item] ( Aged Brie, 0, 20 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 0, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 35 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 35 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 0, 35 )
+TRACE [Test_Item] ( Conjured Mana Cake, 0, 0 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] == [DAY 10] ==
+TRACE [Test_Item] ( +5 Dexterity Vest, -1, 0 )
+TRACE [Test_Item] ( Aged Brie, -1, 22 )
+TRACE [Test_Item] ( Elixir of the Mongoose, -1, 0 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, -1, 0 )
+TRACE [Test_Item] ( Conjured Mana Cake, -1, 0 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ***************** TEST BIG *****************
+TRACE [Test_Item] 
+TRACE [Test_Item] ** UPDATE QUALITY **
+TRACE [Test_Item] ============ ENTRER ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 10, 10 )
+TRACE [Test_Item] ( Aged Brie, 10, 10 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 10, 10 )
+TRACE [Test_Item] ( Conjured Mana Cake, 10, 10 )
+TRACE [Test_Item] 
+TRACE [Test_Item] ============ SORTIE ============
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )
+TRACE [Test_Item] ( +5 Dexterity Vest, 9, 9 )
+TRACE [Test_Item] ( Aged Brie, 9, 11 )
+TRACE [Test_Item] ( Elixir of the Mongoose, 9, 9 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Sulfuras, Hand of Ragnaros, 10, 10 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Backstage passes to a TAFKAL80ETC concert, 9, 12 )
+TRACE [Test_Item] ( Conjured Mana Cake, 9, 9 )

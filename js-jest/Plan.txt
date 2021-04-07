@@ -1,0 +1,19 @@
+=========== ENTRER ===============
+
+Boucle liste d'items :
+items.forEach(item => console.log(`${item.name}, ${item.sellIn}, ${item.quality}`));
+
+========== SORTIE ================
+
+Boucle liste d'items :
+items.forEach(item => console.log(`${item.name}, ${item.sellIn}, ${item.quality}`));
+
+
+
+class Item {
+  constructor(name, sellIn, quality){
+    this.name = name;
+    this.sellIn = sellIn;
+    this.quality = quality;
+  }
+}
